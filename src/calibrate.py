@@ -20,7 +20,7 @@ class Calibrator:
         cv2.waitKey(3)
 
 def main(args):
-    ic = Calibrator()
+    cal = Calibrator()
     rospy.init_node("image")
     try:
         rospy.spin()
